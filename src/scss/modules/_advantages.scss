@@ -1,0 +1,16 @@
+.advantages {
+  display: flex;
+  align-items: center;
+  color: var(--dark-blue, #005564);
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  gap: 24px;
+}
+.advantage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}

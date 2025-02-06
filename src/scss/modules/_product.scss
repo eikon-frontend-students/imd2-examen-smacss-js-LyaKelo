@@ -1,0 +1,30 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--green, #a0d187);
+  align-items: center;
+  padding: 0px 40px 20px 40px;
+}
+.product.is-active {
+  background-color: var(--red, #cf9697);
+}
+.product-title {
+  font-family: "Francois One";
+  color: var(--dark-blue, #005564);
+  font-size: 25px;
+  width: max-content;
+}
+.product-text {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+.product-bottom {
+  display: none;
+}
+.product-bottom.is-active {
+  display: block;
+}

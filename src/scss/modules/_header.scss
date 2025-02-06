@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--dark-blue, #005564);
+}
+.header-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Francois One";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+}
+.header.is-active {
+  background: var(--yellow, #fce757);
+}
+.header-title.is-active {
+  color: var(--dark-blue, #005564);
+}
